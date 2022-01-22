@@ -9,6 +9,9 @@ import Typography from "@mui/material/Typography";
 import ViewNote from "../Components/ViewNote";
 import CreateNote from "../Components/CreateNote";
 
+// Context
+import { NotesProvider } from "../useNotesContext";
+
 // Styles
 import styled from "@emotion/styled";
 
@@ -24,19 +27,21 @@ const Box = styled.div`
 
 const Notes = () => {
   return (
-    <Container maxWidth="sm">
-      <Box>
-        <Typography variant="h4" gutterBottom color="rgb(255,82,82)">
-          Brain Dump
-        </Typography>
-        <BrowserRouter>
-          <Routes>
-            <Route exact path="/" element={<ViewNote />} />
-            <Route path="/createNote" element={<CreateNote />} />
-          </Routes>
-        </BrowserRouter>
-      </Box>
-    </Container>
+    <NotesProvider>
+      <Container maxWidth="sm">
+        <Box>
+          <Typography variant="h4" gutterBottom color="rgb(255,82,82)">
+            Brain Dump
+          </Typography>
+          <BrowserRouter>
+            <Routes>
+              <Route exact path="/" element={<ViewNote />} />
+              <Route path="/createNote" element={<CreateNote />} />
+            </Routes>
+          </BrowserRouter>
+        </Box>
+      </Container>
+    </NotesProvider>
   );
 };
 

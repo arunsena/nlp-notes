@@ -5,6 +5,13 @@ import { useNotesContext } from "../../useNotesContext";
 import Button from "@mui/material/Button";
 import styled from "@emotion/styled";
 
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+`;
+
 const ListGroup = styled.ul`
   list-style-type: circle;
 `;
@@ -17,7 +24,7 @@ const ViewNote = () => {
   const { notes } = useNotesContext();
 
   return (
-    <>
+    <Container>
       <ListGroup>
         {notes.map((note, index) => (
           <List key={index}>{note}</List>
@@ -26,7 +33,7 @@ const ViewNote = () => {
       <Button component={Link} to="/createNote">
         Create Note
       </Button>
-    </>
+    </Container>
   );
 };
 

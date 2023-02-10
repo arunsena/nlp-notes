@@ -1,15 +1,15 @@
 {
-  "files": {
-    "main.css": "/nlp-notes/static/css/main.073c9b0a.css",
-    "main.js": "/nlp-notes/static/js/main.1d1bc25f.js",
-    "static/js/787.c5d2c00a.chunk.js": "/nlp-notes/static/js/787.c5d2c00a.chunk.js",
-    "index.html": "/nlp-notes/index.html",
-    "main.073c9b0a.css.map": "/nlp-notes/static/css/main.073c9b0a.css.map",
-    "main.1d1bc25f.js.map": "/nlp-notes/static/js/main.1d1bc25f.js.map",
-    "787.c5d2c00a.chunk.js.map": "/nlp-notes/static/js/787.c5d2c00a.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.1d1bc25f.js"
-  ]
+  "main.css": "/nlp-notes/static/css/main.a8854719.chunk.css",
+  "main.js": "/nlp-notes/static/js/main.4edae626.chunk.js",
+  "main.js.map": "/nlp-notes/static/js/main.4edae626.chunk.js.map",
+  "static/js/1.9f214d70.chunk.js": "/nlp-notes/static/js/1.9f214d70.chunk.js",
+  "static/js/1.9f214d70.chunk.js.map": "/nlp-notes/static/js/1.9f214d70.chunk.js.map",
+  "static/js/2.f8c0ccc7.chunk.js": "/nlp-notes/static/js/2.f8c0ccc7.chunk.js",
+  "static/js/2.f8c0ccc7.chunk.js.map": "/nlp-notes/static/js/2.f8c0ccc7.chunk.js.map",
+  "runtime~main.js": "/nlp-notes/static/js/runtime~main.b908f015.js",
+  "runtime~main.js.map": "/nlp-notes/static/js/runtime~main.b908f015.js.map",
+  "static/css/main.a8854719.chunk.css.map": "/nlp-notes/static/css/main.a8854719.chunk.css.map",
+  "index.html": "/nlp-notes/index.html",
+  "precache-manifest.bf9891eb19b291795ffd370f710aafad.js": "/nlp-notes/precache-manifest.bf9891eb19b291795ffd370f710aafad.js",
+  "service-worker.js": "/nlp-notes/service-worker.js"
 }

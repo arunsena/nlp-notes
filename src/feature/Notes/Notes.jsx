@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 
 // Components
 import Container from "@mui/material/Container";
@@ -33,12 +33,12 @@ const Notes = () => {
           <Typography variant="h4" gutterBottom color="rgb(255,82,82)">
             Brain Dump
           </Typography>
-          <BrowserRouter>
+          <HashRouter>
             <Routes>
               <Route exact path="/" element={<ViewNote />} />
               <Route path="/createNote" element={<CreateNote />} />
             </Routes>
-          </BrowserRouter>
+          </HashRouter>
         </Box>
       </Container>
     </NotesProvider>

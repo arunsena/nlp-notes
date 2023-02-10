@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nlp-notes/static/css/main.073c9b0a.css",
+    "main.js": "/nlp-notes/static/js/main.1d1bc25f.js",
+    "static/js/787.c5d2c00a.chunk.js": "/nlp-notes/static/js/787.c5d2c00a.chunk.js",
+    "index.html": "/nlp-notes/index.html",
+    "main.073c9b0a.css.map": "/nlp-notes/static/css/main.073c9b0a.css.map",
+    "main.1d1bc25f.js.map": "/nlp-notes/static/js/main.1d1bc25f.js.map",
+    "787.c5d2c00a.chunk.js.map": "/nlp-notes/static/js/787.c5d2c00a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.1d1bc25f.js"
+  ]
+}
